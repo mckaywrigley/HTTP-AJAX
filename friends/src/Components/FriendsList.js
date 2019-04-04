@@ -15,7 +15,7 @@ class FriendsList extends Component {
                         <Friend 
                             friend={friend}
                             key={id}
-                            deleteItem={this.props.deleteItem}
+                            deleteItem={this.props.deleteFriend}
                             populateForm={this.props.populateForm}
                         />
                     ))

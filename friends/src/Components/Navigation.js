@@ -10,7 +10,7 @@ const Navigation = props => {
                 <NavLink to="/">Home</NavLink>
             </div>
             <div>
-                <NavLink to="/newFriend">{props.isUpdating ? 'Update' : 'Add'} Friend</NavLink>
+                <NavLink to="/newFriend">Add Friend</NavLink>
             </div>     
         </div> 
     );
